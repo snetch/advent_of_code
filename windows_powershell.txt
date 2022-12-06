@@ -1,13 +1,22 @@
 Commands in PowerShell:
 
 cd .\Desktop\code\advent_of_code\2022\
-Get-Content .\advent05_input.txt | python .\advent05.py
+Get-Content .\advent06_input.txt | python .\advent06.py
 
 
 
 Beginning of each program:
 
 from sys import stdin
-
 for line in stdin:
     line = line[:-1]
+
+OR
+
+while True:
+    try:
+        line = input()
+        ....
+    except EOFError:
+        print("EOF")
+        break
