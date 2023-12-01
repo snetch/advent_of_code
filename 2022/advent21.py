@@ -73,7 +73,7 @@ def reverse_search(m):
 
     left = reverse_search(monkeys[monkey_index[m.ref1]])
     right = reverse_search(monkeys[monkey_index[m.ref2]])
-    
+
 #    if m.name in ["sjmn", "drzm", "dbpl", "hmdt", "zczc"]:
 #        print(m.name, left, m.op, right)
 

@@ -19,7 +19,7 @@ if PART == 2:
 #print(indexes)
 
 def mix(numbers, indexes, count):
-    
+
     for i in range(count):
         old_index = indexes.index(i)
         new_index = ( old_index + numbers[old_index] )  %  (count-1)
