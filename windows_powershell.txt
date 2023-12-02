@@ -1,7 +1,7 @@
 Commands in PowerShell:
 
 cd .\Desktop\code\advent_of_code\2023\
-Get-Content .\advent01_input.txt | python .\advent01.py
+Get-Content .\advent02_input.txt | python .\advent02.py
 
 
 
